@@ -1,0 +1,129 @@
+[?11/?14/?2018 12:29 PM]  N, Kathiresan:  
+No Title 
+html sql js plsql
+xml
+
+java-airtel ---xml/json-- dotnet - bank
+
+why to use xml - XSD
+
+advantages of xml
+well formed xml - namespaces, start tag - end tag
+<employee>
+</Employee>
+
+<employee>
+<category>
+version of xml 
+
+
+naming convention of elemn
+
+_name
+#name
+.name
+
+
+xsd - declaring datatypes
+min inclusive
+max inclusive
+xs:pattern
+xs:
+
+form
+
+name
+city
+mobile - xs:pattern - field
+gender
+age  x:min...
+
+
+sub
+
+
+all data from text ---> xml doc
+
+P1 - p1.xml ----mobile - left empty
+P2 - p2.xml
+P3 - p3.xml
+
+validate using xsd
+
+template - which will validate all xml which contains respective users infor
+
+
+p1.xml
+<person id="">
+<name
+<city
+<mobile></mobile>
+
+xs:boolean---
+
+html 5 -  required,placeholder
+		check box
+
+languages known :
+	English <input type="checkbox" name="lan" value="EN">
+	german <input type="checkbox" name="lan" value="DE">
+	french <input type="checkbox" name="lan" value="FR">
+
+gender:
+	MALE <input type="radio" name="GEN" value="MALE">
+	female <input type="radio" name="GEN" value="FEMALE">
+
+DESIG:
+	cONSULTANT <input type="radio" name="DES" value="CT">
+	mANAGER <input type="radio" name="DESIG" value="MN">
+
+
+file upload - type=file
+		
+dom - document
+
+window
+
+get value from a form using id- 
+
+
+form 1 -  <input id="viewport" type="text" /> 
+
+form 2 - <input id="viewport" type="text" /> 
+
+var doc=document.form2.viewport.value 
+
+
+joins
+order by
+sub query
+between and
+in
+
+	100 -- 30 (training-15 &  manager-15) 
+
+
+	select where   groupby  having  orderby	
+	
+	select deptname , avg(salary) from emp where deptname in (,)
+	groupby deptname having avg(salary)<30000
+	order by....
+
+	co related sub query
+	
+	create table - copy structure of another table 
+	create - insert
+
+	to_char
+	to_dATE
+
+	TRUNC - NUMBERS
+	ROUND - NUMBER	
+
+	ROUND(123.4566,1) ---->123.5
+	ROUND(123.4566,-1) ---->120
+	ROUND(126.4566,-1) ---->130
+
+
+ 
+ 
